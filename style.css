@@ -1,0 +1,109 @@
+header {
+     width: 532px;
+     margin-block-start: 143px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+
+}
+p {color: #898f99;
+    font-family: "Montserrat";
+    font-size: 12px;
+    letter-spacing: 4.8px;    
+}
+h1 {color: #0ec8cb;
+    font-family: "Montserrat";
+    font-size: 48px;
+    letter-spacing: 4.8px;
+}
+h3 {
+    color: #999999;
+    font-family: "PT Sans";
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.directions {
+    text-align: center;
+    font-size: 0px;  
+    
+ }
+div {
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 270px;
+    padding: 55px 32px 94px 30px;
+    border: 1px solid #ececec;
+}   
+
+dt {
+    color: #1b1b1b;
+    font-family: "Montserrat";
+    font-size: 18px;
+    padding: 20px; 
+}
+dd {
+    color: #777777;
+    font-size: 14px;
+    width: 174px;
+    margin-left: 10px;
+}
+.design{
+    background: url(Anchor.png);
+    background-position: center 10px; 
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+       
+}
+.development{
+    background: url(Diamond_black.png);
+    background-position: center 10px; 
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+}
+.graphics{
+    background: url(Eyeglasses.png);
+    background-position: center 10px; 
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+}
+.illustration{
+    background: url(Monitor.png);
+    background-position: center 10px; 
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+}
+.design:hover{
+    background: url(Anchor_white.png);
+    background-position: center 10px; 
+    background-repeat: no-repeat;
+    background-color: #0ec8cb;
+}
+.development:hover{
+    background: url(Diamond.png);
+    background-position: center 10px; 
+    background-repeat: no-repeat;
+    background-color: #0ec8cb;
+}
+.graphics:hover{
+    background: url(Eyeglasses_white.png);
+    background-position: center 10px; 
+    background-repeat: no-repeat;
+    background-color: #0ec8cb;
+}
+.illustration:hover{
+    background: url(Monitor_white.png);
+    background-position: center 10px; 
+    background-repeat: no-repeat;
+    background-color: #0ec8cb;
+}
+dt:hover{
+    color: white;
+}
+dd:hover{
+    color: white;
+}
+
+
+
