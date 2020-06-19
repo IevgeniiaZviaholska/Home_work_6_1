@@ -38,10 +38,10 @@ div {
 }   
 
 dt {
-    color: #1b1b1b;
-    font-family: "Montserrat";
+    color: #1b1b1b    font-family: "Montserrat";
     font-size: 18px;
     padding: 20px; 
+    color: black;
 }
 dd {
     color: #777777;
@@ -79,31 +79,50 @@ dd {
     background-position: center 10px; 
     background-repeat: no-repeat;
     background-color: #0ec8cb;
+    color: white;
+}
+.design:hover dd{
+    color: #ffffff;
+}
+.design:hover dt{
+    color: #ffffff;
 }
 .development:hover{
     background: url(Diamond.png);
     background-position: center 10px; 
     background-repeat: no-repeat;
     background-color: #0ec8cb;
+    color: white;   
 }
-.graphics:hover{
+.development:hover dd{
+    color: white;
+}
+.development:hover dt{
+    color: white;
+}
+.graphics:hover {
     background: url(Eyeglasses_white.png);
     background-position: center 10px; 
     background-repeat: no-repeat;
     background-color: #0ec8cb;
+    color: white;
+}
+.graphics:hover dd{
+    color: white;
+}
+.graphics:hover dt{
+    color: white;
 }
 .illustration:hover{
     background: url(Monitor_white.png);
     background-position: center 10px; 
     background-repeat: no-repeat;
     background-color: #0ec8cb;
-}
-dt:hover{
     color: white;
 }
-dd:hover{
+.illustration:hover dd{
     color: white;
 }
-
-
-
+.illustration:hover dt{
+    color: white;
+}
